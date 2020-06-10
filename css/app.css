@@ -28,9 +28,9 @@ body {
 }
 
 #frame{
-	position: absolute;
+	position: relative;
 	top: 30px;
-	left: 160px;
+	left: 0px;
    
 }
 
@@ -51,6 +51,12 @@ body {
 	text-align: center;
 }
 
+.copyright{
+	font-size: 12pt;
+	position: relative;
+	left: 390px;
+}
+
 .rightpage{
 	display: inline-block;
 	position: absolute;
@@ -67,6 +73,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	width: 100%;
 }
 
 h1 {
