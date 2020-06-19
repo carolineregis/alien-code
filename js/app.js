@@ -169,7 +169,6 @@ function matched(){
     disable();
     openedCards.forEach(function apply(item) {
         item.classList.add("match", "disabled");
-        item.classList.remove("show", "open", "no-event");
     });
     setTimeout(function(){
         openedCards.forEach(function apply(item) {

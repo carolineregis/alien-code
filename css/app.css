@@ -36,11 +36,20 @@ body {
 
 .info{
 	position: relative;
-	top: 70px;
+	top: 50px;
 	color: aliceblue;
 
 	text-align: center;
 }
+
+.warn{
+	position: relative;
+	top: 70px;
+	color: aliceblue;
+	text-align: center;
+	margin-top: 0;
+}
+
 
 .leftpage{
 	position: absolute;
@@ -85,6 +94,7 @@ h3{
 	font-family: 'FunFont';
 	font-size: 58pt;
 	color: aliceblue;
+	margin-bottom: 0;
 	
 }
 
