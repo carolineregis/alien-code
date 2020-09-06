@@ -35,8 +35,9 @@ body {
    
 }
 
-.deck{
+#card-deck{
 	text-align: center;
+	color: black;
 }
 
 .info{
