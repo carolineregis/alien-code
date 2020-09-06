@@ -35,7 +35,7 @@ body {
    
 }
 
-#card-deck.card{
+.deck.card{
 	text-align: center;
 	color: black;
 }
