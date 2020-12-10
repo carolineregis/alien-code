@@ -311,7 +311,7 @@ function startModali(){
 function closeModal(){
     closeicon.addEventListener("click", function(e){
         modal.classList.remove("show");
-        startGame();
+        // startGame();
     });
 }
 
