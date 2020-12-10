@@ -38,7 +38,7 @@ body {
 .deck .card.show{
 	color: white;
 	text-align:center;
-	padding-top: 25px;
+	padding-top: 0px;
 }
 
 .info{
