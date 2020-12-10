@@ -146,7 +146,7 @@ h3{
 	visibility:hidden;
 	width: 100%;
 	height: 100%;
-	
+	padding-top: 0px;
 }
 
 .deck .card.show .image {
@@ -164,7 +164,7 @@ h3{
 	-webkit-backface-visibility: visible !important;
 	backface-visibility: visible !important;
 	animation-duration: .75s;
-	
+	padding-top: 0px;
 }
 
 .deck .card.show {
@@ -185,6 +185,7 @@ h3{
 	-webkit-backface-visibility: visible !important;
 	backface-visibility: visible !important;
 	animation-duration: .75s;
+	padding-top: 0px;
 }
 
 .deck .card.unmatched {
@@ -193,6 +194,7 @@ h3{
 	backface-visibility: visible !important;
 	animation-duration: .75s;
 	background: #e2043b;
+	padding-top: 0px;
 }
 
 .deck .card.disabled {
