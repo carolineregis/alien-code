@@ -38,7 +38,7 @@ body {
 .deck .card.show{
 	color: black;
 	text-align:center;
-	padding-top: 25px;
+	padding-top: 20px;
 }
 
 .info{
@@ -168,15 +168,18 @@ h3{
 }
 
 .deck .card.show {
+	font-family: 'Gloria Hallelujah', cursive;
 	font-size: 33px;
+	color: white;
 	text-align: center;
-	padding-top: 25px
-	
+	padding-top: 0px;
+
 }
 
 .deck .card.match {
 	cursor: default;
 	background: rgb(68, 247, 32);
+	font-family: 'Gloria Hallelujah', cursive;
 	font-size: 33px;
 	animation-name: rubberBand;
 	-webkit-backface-visibility: visible !important;

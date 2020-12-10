@@ -268,7 +268,7 @@ function startTimer(){
 
 // @description congratulations when all cards match, show modal and moves, time and rating
 function congratulations(){
-    if (matchedCard.length == 8){
+    if (matchedCard.length == 2){
         clearInterval(interval);
         finalTime = timer.innerHTML;
 
@@ -279,6 +279,7 @@ function congratulations(){
         var starRating = document.querySelector(".stars").innerHTML;
 
         //showing move, rating, time on modal
+        
         document.getElementById("finalMove").innerHTML = moves;
         document.getElementById("starRating").innerHTML = starRating;
         document.getElementById("totalTime").innerHTML = finalTime;
@@ -310,7 +311,7 @@ function startModali(){
 function closeModal(){
     closeicon.addEventListener("click", function(e){
         modal.classList.remove("show");
-        startGame();
+        
     });
 }
 
