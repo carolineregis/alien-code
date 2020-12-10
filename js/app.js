@@ -139,7 +139,7 @@ var displayCard = function (){
     contents: $(this).data('popup'),
     css: {
         border: 'solid 4px #fff',
-        padding: '0px',
+        padding: '10px',
         fontSize: '100%',
         fontWeight: 'bold',
         lineHeight: '1',
@@ -268,7 +268,7 @@ function startTimer(){
 
 // @description congratulations when all cards match, show modal and moves, time and rating
 function congratulations(){
-    if (matchedCard.length == 2){
+    if (matchedCard.length == 12){
         clearInterval(interval);
         finalTime = timer.innerHTML;
 

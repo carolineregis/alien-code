@@ -38,7 +38,7 @@ body {
 .deck .card.show{
 	color: white;
 	text-align:center;
-	padding-top: 0px;
+	padding-top: 10px;
 }
 
 .info{
@@ -172,7 +172,7 @@ h3{
 	font-size: 33px;
 	color: white;
 	text-align: center;
-	padding-top: 0px;
+	padding-top: 10px;
 
 }
 
