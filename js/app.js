@@ -139,7 +139,7 @@ var displayCard = function (){
     contents: $(this).data('popup'),
     css: {
         border: 'solid 4px #fff',
-        padding: '10px',
+        padding: '0px',
         fontSize: '100%',
         fontWeight: 'bold',
         lineHeight: '1',
