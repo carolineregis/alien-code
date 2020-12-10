@@ -35,11 +35,6 @@ body {
    
 }
 
-.deck .card.show{
-	color: white;
-	text-align:center;
-	padding-top: 0px;
-}
 
 .info{
 	position: relative;
@@ -169,6 +164,7 @@ h3{
 
 .deck .card.show {
 	font-size: 33px;
+	color: white;
 	font-family: Tahoma, Arial, sans-serif;
 	text-align: center;
 	
