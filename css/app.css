@@ -171,6 +171,7 @@ h3{
 	font-size: 33px;
 	text-align: center;
 	font-family: Tahoma, Arial, sans-serif;
+	padding: 0;
 }
 
 .deck .card.match {
