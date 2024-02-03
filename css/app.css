@@ -42,19 +42,15 @@ body {
 }
 
 .info{
-	position: relative;
-	top: 50px;
 	color: aliceblue;
-
+  margin: 18px 18px;
 	text-align: center;
 }
 
 .warn{
-	position: relative;
-	top: 70px;
 	color: aliceblue;
 	text-align: center;
-	margin-top: 0;
+	margin-top: 18;
 }
 
 
@@ -74,22 +70,34 @@ body {
 }
 
 .rightpage{
-	display: inline-block;
+	display: flex;
 	position: absolute;
 	top: 90px;
 	left: 580px;
 	width: 40%;
-	height: 10%;
-   
+  justify-content: center;
+  align-content: center;   
+}
+
+.start-button {
+  position: absolute;
+  z-index: 1;
+}
+
+.start-button::backdrop {
+  background-color: rgba(53, 37, 37, 0.219);
 }
 
 
 .container {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+	flex-direction: row;
 	width: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h1 {
@@ -202,8 +210,13 @@ h3{
  * Styles for the Score Panel
  */
 
+.title {
+  text-align: center;
+}
 
 .score-panel {
+  display: flex;
+  flex-direction: column;
 	text-align: center;
 	margin-bottom: 10px;
 	color: aliceblue;
@@ -211,11 +224,10 @@ h3{
 
 .score-panel .stars {
 	margin: 0;
-	padding: 0;
-	display: inline-block;
-	margin: 0 5px 0 0;
-	width: 30%;
-	
+	padding: 9px;
+  display: flex;
+  justify-content: center;
+	align-content: center;
 }
 
 .score-panel .stars li {

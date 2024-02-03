@@ -40,16 +40,15 @@
 
 
     <div class="container">
-        <div id="frame">
-            <img src="img/frame.jpg" style="opacity: 70%;" class="image-responsive fit-image">
+            <img src="img/frame.jpg" style="opacity: 70%; position: absolute" class="image-responsive fit-image">
 
-            <div class="leftpage">
+            <div class="col-6" style="margin-top: 9%;">
 
                 <div class="title">
                     <h3> Alien Code  </h3>
                 </div>
 
-                <section class="score-panel" id="main-panel">
+                <div class="score-panel" id="main-panel">
 
                     <ul class="stars">
                         <li><i class="fa fa-star"></i></li>
@@ -57,12 +56,11 @@
                         <li><i class="fa fa-star"></i></li>
                     </ul> <br>
 
-                    <span class="moves">0</span> Movimento(s)
-                    <br>
-                    <div class="timer">
+                  <div class="moves-counter">
+                    <span class="moves">0 </span> Movimento(s) 
+                  </div>
 
-
-                    </div>
+                  <div class="timer"></div>
                     <div class="info">
                         <h3 style="font-size: 30pt;"> Como Jogar </h3>
                     
@@ -77,12 +75,15 @@
             <span> Quanto mais movimentos você fizer, menos estrelas terá no fim</span>
                     </div>
 
-                </section>
+                </div>
             </div>
             
 
 
-            <div class="rightpage">
+            <div class="col-6" style="margin-top: 9%;">
+              <div class="start-button">
+                <button> Start </button>
+              </div>
                 <ul class="deck" id="card-deck">
                     <li class="card" type="card1">
                         <i class="fas" id="command1"></i>
@@ -162,7 +163,6 @@
                 </div>
                 
             </div>
-              </div>
 
     </div>
     
